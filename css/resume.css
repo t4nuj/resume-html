@@ -1,0 +1,188 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100,100i,300,300i,400,400i,500,500i,700,700i&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  text-rendering: optimizelegibility;
+}
+
+
+a:any-link {
+  text-decoration: none;
+  color: black;
+}
+html {
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 300;
+  overflow: hidden;
+  line-height: 1.2rem;
+  font-kerning: normal;
+  color: black;
+  background: rgb(255,255,255);
+}
+
+#a4 {
+  padding: 1.25cm;
+  padding-top: 0.75cm;
+  width: 21cm;
+  height: 29.7cm;
+  margin: auto;
+}
+
+strong {
+  font-weight: 500;
+}
+
+#header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  
+}
+
+#info {
+  height: 1.7cm;
+  display: flex;
+  flex-flow: column wrap-reverse;
+  justify-content: space-between;
+  margin-left: 3rem;
+  padding: 0.5rem;
+  font-size: 1.1rem;
+}
+
+#info > div {
+  text-align: left;
+  flex-basis: 50%;
+  margin-left: 2rem;
+}
+
+#info > div:last-child::after {
+  content: '';
+  white-space: pre;
+}
+
+#info i {
+  color: #0f52ba;
+}
+
+#col-layout {
+  display: grid;
+  grid-template-columns: 3.4fr 5fr;
+  grid-gap: 1cm;
+  margin-top: 3rem;
+  justify-content: space-around;
+  
+}
+
+#first-col {
+  order: 2;
+}
+
+#second-col {
+  display: inline-block;
+}
+
+#header {
+  width: 100%;
+}
+
+#title {
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: normal;
+  font-family: 'Roboto';
+}
+
+#title span {
+  color: #0f52ba;;
+  font-weight: 300;
+}
+
+.section-head {
+  font-size: 1.5rem;
+  line-height: normal;
+  margin-top: 1.5rem;
+  color: #0f52ba;
+  font-weight: 400;
+
+}
+
+.section-head.first {
+  margin-top: 0rem;
+}
+
+.cv-entry {
+  display: block;
+  width: 100%;
+  margin-top: 1.5rem;
+}
+
+.section-head + .cv-entry {
+  margin-top: 0.5rem;  
+}
+
+.cv-entry-heading {
+  font-size: 1.1rem;
+  line-height: normal;
+}
+
+.cv-entry-heading em, .cv-entry-byline > em {
+  color: rgba(0,0,0,0.7);
+}
+
+.cv-entry-byline {
+  font-size: 0.8rem;
+}
+
+.cv-entry-desc {
+  font-size: 0.9rem;
+  font-family: 'Roboto';
+  font-weight: 300
+}
+
+.cv-entry-desc strong {
+  font-weight: 400; 
+  color: rgb(50,50,50);
+}
+.cv-entry-desc {
+  color: rgb(20,20,20);
+}
+.cv-entry-desc strong.subheading {
+  font-weight: 400;
+  color: rgb(0,0,0);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  padding-left: 0.7em;
+}
+
+ul li {
+  margin-top: 0.8em;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  white-space: normal !important;
+  text-justify: inter-word;
+  hyphens: auto;
+
+}
+
+ul.no-justify li {
+  text-align: left;
+}
+
+ul li:first-child {
+  margin-top: 0.3em;
+}
+
+li::before {
+  content: "-  ";
+  white-space: pre;
+  position absolute;
+  margin-left: -0.75em;
+}

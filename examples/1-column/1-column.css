@@ -1,0 +1,26 @@
+#col-layout {
+	display: block;
+	margin-top: 2rem;
+}
+
+#second-col {
+	margin-top: 1.5rem; 
+}
+
+.cv-entry {
+	margin-top: 0.8rem;
+}
+
+.cv-entry-byline, .cv-entry-heading {
+	display: flex;
+	justify-content: space-between;
+}
+
+.cv-entry-desc {
+	font-family: 'Roboto Slab';
+	line-height: 1.2rem;
+}
+
+ul li {
+	margin-top: 0.4rem;
+}

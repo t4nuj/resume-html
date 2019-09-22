@@ -1,0 +1,28 @@
+{
+  "name": "resume-html",
+  "version": "1.0.0",
+  "description": "Generate beautiful Resumes using HTML and CSS",
+  "scripts": {},
+  "author": "your name",
+  "license": "MIT",
+  "dependencies": {
+    "connect": "^3.7.0",
+    "puppeteer": "^1.19.0",
+    "serve-static": "^1.14.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/t4nuj/resume-html.git"
+  },
+  "main": "generate-resume-pdf.js",
+  "directories": {
+    "example": "examples"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "HTML",
+    "CSS",
+    "Resume",
+    "CV"
+  ]
+}
