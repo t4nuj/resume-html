@@ -63,7 +63,10 @@
 --- | ---
 ![2-Column Style](https://raw.githubusercontent.com/t4nuj/resume-html/master/examples/2-column.png) | ![2-Column Style](https://raw.githubusercontent.com/t4nuj/resume-html/master/examples/1-column.png)
 
-Generally, you'll be able to better utilize space and fit in more content in a 2 column format.
+Generally, you'll be able utilize space better and fit in more content using a 2 column format.
+
+## Credits
+The theme of the resume is inspired by the [Awesome-CV](https://github.com/posquit0/Awesome-CV) template.
 
 ## Motivation for making this Repository
 All the CS nerds (including me) were using LaTeX to generate their Résumés. It had its benefits: 
