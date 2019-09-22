@@ -1,5 +1,5 @@
 # resume-html
-**Generate a beautiful Résumé using HTML and CSS.**
+**Generate beautiful Résumés using HTML and CSS.** 
 
 ## Usage
 
@@ -14,7 +14,7 @@
    ```
    npm install
    ```
-   Note: Chromium (~108 MB) is a dependency for using puppeteer, and rendering the Résumé.
+   Note: Chromium (~108 MB) is a dependency for using puppeteer, and rendering the Résumé PDF.
 1. View the Résumé in browser.
 
    ```
@@ -50,12 +50,20 @@
    * The `content` directory has various sections and the main `page.html`.
    * `load-resume.js` is responsible for loading the `page.html` file and all the sections. You can play around with the order of the sections using this file.
 
-1. Once you are happy with it generate a PDF
+1. Once you are happy with it generate a PDF (output in `resume.pdf`)
 
    ```
    node generate-resume-pdf.js
    ```
 1. Check out a 1-column format in the examples directory. You can view it by pointing to `http://localhost:8000/examples/1-column`
+
+
+
+ [2 Column](https://github.com/t4nuj/resume-html/blob/master/resume.pdf) |   [1 Column](https://github.com/t4nuj/resume-html/blob/master/examples/1-column/1-column-resume.pdf)
+--- | ---
+![2-Column Style](https://raw.githubusercontent.com/t4nuj/resume-html/master/examples/2-column.png) | ![2-Column Style](https://raw.githubusercontent.com/t4nuj/resume-html/master/examples/1-column.png)
+
+Generally, you'll be able to better utilize space and fit in more content in a 2 column format.
 
 ## Motivation for making this Repository
 All the CS nerds (including me) were using LaTeX to generate their Résumés. It had its benefits: 
@@ -67,13 +75,17 @@ All the CS nerds (including me) were using LaTeX to generate their Résumés. It
 
 One day, I decided to modify the [Awesome-CV](https://github.com/posquit0/Awesome-CV) template into a 2-column format, but I found no way of doing it in LaTeX which would give me as much flexibility as using CSS+HTML.  
 
-Hence, this repository was born.
+Hence, I hacked together this repo.
 
 Also, I had not clue what `Underfull \hbox (badness 10000)` meant.
 
-Using web technologies does not mean you need to let go of the good things about using LaTeX:
+Using web technologies does not mean you need to let go of the good things about using a LaTeX managed Resume:
 
 * You can still use version control with HTML+CSS.
 * You can divide your content into sections using a little JS magic.
-* CSS will ensure that content is separate from formatting.
+* CSS *means* that content is separate from formatting.
 * You may not get the best in class line-breaking algorithm, but it will be good enough.
+
+Happy hacking!
+
+
