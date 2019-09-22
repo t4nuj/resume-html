@@ -66,7 +66,9 @@
 Generally, you'll be able utilize space better and fit in more content using a 2 column format.
 
 ## Credits
-The theme of the resume is inspired by the [Awesome-CV](https://github.com/posquit0/Awesome-CV) template.
+* The theme of the resume is inspired by the [Awesome-CV](https://github.com/posquit0/Awesome-CV) template.
+* Uses [font-awesome](https://fontawesome.com/) for the info section icons.
+* Uses Google's [Roboto](https://fonts.google.com/specimen/Roboto) fonts.
 
 ## Motivation for making this Repository
 All the CS nerds (including me) were using LaTeX to generate their Résumés. It had its benefits: 
